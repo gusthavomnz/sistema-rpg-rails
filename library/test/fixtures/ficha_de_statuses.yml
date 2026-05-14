@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  id_personagem: one
+  vida: 1
+  mana: 1
+  forca: 1
+  defesa: 1
+  inteligencia: 1
+
+two:
+  id_personagem: two
+  vida: 1
+  mana: 1
+  forca: 1
+  defesa: 1
+  inteligencia: 1

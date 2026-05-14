@@ -1,0 +1,9 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  id_personagem: one
+  id_missao: one
+
+two:
+  id_personagem: two
+  id_missao: two

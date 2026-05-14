@@ -1,0 +1,9 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  capacidade_maxima: 1
+  euro: 1
+
+two:
+  capacidade_maxima: 1
+  euro: 1
