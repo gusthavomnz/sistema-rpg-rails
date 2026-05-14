@@ -46,6 +46,6 @@ class PersonagemsController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def personagem_params
-      params.expect(personagem: [ :nome, :nivel ])
+      params.expect(personagem: [ :nome, :nivel, :id_inventario_id ])
     end
 end
