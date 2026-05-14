@@ -23,6 +23,14 @@ class InventariosControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
   end
 
+  test "should show inventario with items" do
+    get inventario_url(@inventario), as: :json
+    assert_response :success
+
+    body = response.parsed_body
+    assert_includes body.keys, "items"
+  end
+
   test "should update inventario" do
     patch inventario_url(@inventario), params: { inventario: { capacidade_maxima: @inventario.capacidade_maxima, euro: @inventario.euro } }, as: :json
     assert_response :success

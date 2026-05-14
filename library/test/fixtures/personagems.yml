@@ -3,7 +3,9 @@
 one:
   nome: MyString
   nivel: 1
+  id_inventario: one
 
 two:
   nome: MyString
   nivel: 1
+  id_inventario: two

@@ -10,7 +10,7 @@ class InventariosController < ApplicationController
 
   # GET /inventarios/1
   def show
-    render json: @inventario
+    render json: @inventario.as_json(include: :items)
   end
 
   # POST /inventarios
